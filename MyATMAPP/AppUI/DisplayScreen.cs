@@ -15,14 +15,9 @@
             Console.WriteLine("\nDisclaimer: Know that this can accept and validate actual ATM cards.");
             Console.WriteLine("Welcome! Please insert your ATM card");
 
-            PressEnterToContinue();
+            // App utility
+            AppUtility.ClickEnterToContinue();
 
-        }
-
-        public static void PressEnterToContinue()
-        {
-            Console.WriteLine($"\nPlease press enter to continue");
-            Console.ReadLine();
         }
     }
 }

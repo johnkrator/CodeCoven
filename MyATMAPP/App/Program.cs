@@ -7,6 +7,8 @@ namespace MyATMAPP.App
         public static void Main(string[] args)
         {
             DisplayScreen.Welcome();
+            long cardNumber = UserValidator.Convert<long>("your card number!");
+            Console.WriteLine($"Your card number is {cardNumber}");
         }
     }
 }
