@@ -1,10 +1,12 @@
-﻿namespace MyATMAPP
+﻿using MyATMAPP.UI;
+
+namespace MyATMAPP.App
 {
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello from Jhon");
+            DisplayScreen.Welcome();
         }
     }
 }
