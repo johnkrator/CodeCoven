@@ -1,0 +1,15 @@
+C:\Users\John\Documents\BEZAO-VS\MyATM\bin\Debug\net6.0\MyATM.exe
+C:\Users\John\Documents\BEZAO-VS\MyATM\bin\Debug\net6.0\MyATM.deps.json
+C:\Users\John\Documents\BEZAO-VS\MyATM\bin\Debug\net6.0\MyATM.runtimeconfig.json
+C:\Users\John\Documents\BEZAO-VS\MyATM\bin\Debug\net6.0\MyATM.dll
+C:\Users\John\Documents\BEZAO-VS\MyATM\bin\Debug\net6.0\MyATM.pdb
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\MyATM.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\MyATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\MyATM.AssemblyInfoInputs.cache
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\MyATM.AssemblyInfo.cs
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\MyATM.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\MyATM.dll
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\refint\MyATM.dll
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\MyATM.pdb
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\MyATM.genruntimeconfig.cache
+C:\Users\John\Documents\BEZAO-VS\MyATM\obj\Debug\net6.0\ref\MyATM.dll
