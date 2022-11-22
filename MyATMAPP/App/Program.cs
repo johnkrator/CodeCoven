@@ -1,4 +1,4 @@
-﻿using MyATMAPP.UI;
+﻿using MyATMAPP.AppUI;
 
 namespace MyATMAPP.App
 {

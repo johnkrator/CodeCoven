@@ -1,4 +1,4 @@
-﻿namespace MyATMAPP.UI
+﻿namespace MyATMAPP.AppUI
 {
 
     // static because, I wouldn't want to instantiate the class before using it
