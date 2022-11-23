@@ -26,6 +26,16 @@ namespace MyATMAPP.App
 
             tempUserAccount._CardNumber = UserValidator.Convert<long>("your card number");
             tempUserAccount._CardPin = Convert.ToInt32(AppUtility.GetSecretInput("Enter your account pin"));
+
+            // Waiting dotted counter
+            Console.WriteLine("\nChecking card number and pin...");
+            int timer = 10;
+            for (int i = 0; i < timer; i++)
+            {
+                Console.Write(".");
+                Thread.Sleep(200); // Delays the timer for 200 milliseconds
+            }
+            Console.Clear();
         }
     }
 }
