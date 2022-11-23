@@ -15,27 +15,19 @@ namespace MyATMAPP.App
             {
                 new UserAccount{_Id=1,_FullName="James Jones",_AccountNumber=0001,_CardNumber=321321,_CardPin=1234,_AccountBalance=50000.00m,_IsLocked=false },
                 new UserAccount{_Id=2,_FullName="Peter O",_AccountNumber=0002,_CardNumber=3213222,_CardPin=1235,_AccountBalance=5000.00m,_IsLocked=false },
-                new UserAccount{_Id=3,_FullName="Mark",_AccountNumber=0003,_CardNumber=321311,_CardPin=1232,_AccountBalance=10000.00m,_IsLocked=true }
+                new UserAccount{_Id=3,_FullName="Mark",_AccountNumber=0003,_CardNumber=321311,_CardPin=1232,_AccountBalance=10000.00m,_IsLocked=true },
+                new UserAccount{_Id=4,_FullName="Jude",_AccountNumber=0004,_CardNumber=321313,_CardPin=12329,_AccountBalance=60000.00m,_IsLocked=false }
             };
         }
 
         public void CheckUserCardNumberAndPassword()
         {
             bool isCorrectLogin = false;
-            UserAccount tempUserAccount = new UserAccount();
+            UserAccount inputAccount = DisplayScreen.UserLoginForm();
 
-            tempUserAccount._CardNumber = UserValidator.Convert<long>("your card number");
-            tempUserAccount._CardPin = Convert.ToInt32(AppUtility.GetSecretInput("Enter your account pin"));
-
-            // Waiting dotted counter
-            Console.WriteLine("\nChecking card number and pin...");
-            int timer = 10;
-            for (int i = 0; i < timer; i++)
-            {
-                Console.Write(".");
-                Thread.Sleep(200); // Delays the timer for 200 milliseconds
-            }
-            Console.Clear();
+            // Login progress
+            DisplayScreen.LoginProgress();
         }
+
     }
 }

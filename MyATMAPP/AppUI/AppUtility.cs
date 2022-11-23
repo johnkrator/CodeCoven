@@ -73,5 +73,16 @@ namespace MyATMAPP.AppUI
             Console.WriteLine($"\nPlease press enter to continue");
             Console.ReadLine();
         }
+
+        public static void PrintDotAnimation(int timer = 10)
+        {
+            Console.WriteLine("\nChecking card number and pin...");
+            for (int i = 0; i < timer; i++)
+            {
+                Console.Write(".");
+                Thread.Sleep(200); // Delays the timer for 200 milliseconds
+            }
+            Console.Clear();
+        }
     }
 }
