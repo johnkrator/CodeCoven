@@ -36,5 +36,13 @@ namespace MyATMAPP.AppUI
             // Login progress dot animation
             AppUtility.PrintDotAnimation();
         }
+
+        internal static void PrintLockScreen()
+        {
+            Console.Clear();
+            AppUtility.PrintMessage("Oops! Your account is locked. Please go to nearest branch to unlock your account.");
+            AppUtility.ClickEnterToContinue();
+            Environment.Exit(1);
+        }
     }
 }

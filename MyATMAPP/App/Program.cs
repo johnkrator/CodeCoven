@@ -8,8 +8,10 @@ namespace MyATMAPP.App
         {
             DisplayScreen.Welcome();
             ATMApp atmApp = new ATMApp();
-
+            atmApp.InitializeData();
             atmApp.CheckUserCardNumberAndPassword();
+            atmApp.Welcome();
+
             /*long cardNumber = UserValidator.Convert<long>("your card number!");
             Console.WriteLine($"\nYour card number is {cardNumber}");*/
 

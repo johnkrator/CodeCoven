@@ -8,7 +8,7 @@
         public long _AccountNumber { get; set; }
         public string? _FullName { get; set; }
         public decimal _AccountBalance { get; set; }
-        public int _Total { get; set; }
+        public int _TotalLogin { get; set; }
         public bool _IsLocked { get; set; }
     }
 }
