@@ -8,7 +8,7 @@ namespace MyATMAPP.AppUI
         public static T? Convert<T>(string prompt)
         {
             bool _valid = false;
-            string _userInput;
+            string? _userInput;
 
             while (!_valid)
             {
@@ -29,7 +29,7 @@ namespace MyATMAPP.AppUI
                 catch
                 {
                     /* Console.WriteLine("\nInvalid input. You go need try am again.");*/
-                    AppUtility.PrintMessage("\nInvalid input. You go need try am again.", false);
+                    AppUtility.PrintMessage("\nInvalid input. Be like you go like try am again.", false);
                 }
             }
             return default;
