@@ -12,9 +12,6 @@ namespace MyATMAPP.App
             atmApp.CheckUserCardNumberAndPassword();
             atmApp.Welcome();
 
-            /*long cardNumber = UserValidator.Convert<long>("your card number!");
-            Console.WriteLine($"\nYour card number is {cardNumber}");*/
-
             AppUtility.ClickEnterToContinue();
         }
     }
