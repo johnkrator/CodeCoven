@@ -1,10 +1,13 @@
-﻿using System.Text;
+﻿using System.Globalization;
+using System.Text;
 
 namespace MyATMAPP.AppUI
 {
     // This class was created to allow for decoupling
     public static class AppUtility
     {
+        private static CultureInfo culture = new CultureInfo("en-NG");
+
         public static string GetSecretInput(string prompt)
         {
             bool isPrompt = true;
@@ -17,7 +20,8 @@ namespace MyATMAPP.AppUI
                 if (isPrompt) Console.WriteLine(prompt);
                 isPrompt = false;
 
-                ConsoleKeyInfo inputKey = Console.ReadKey(true); // Reads key strokes. True means, key inputs should be hidden
+                ConsoleKeyInfo
+                    inputKey = Console.ReadKey(true); // Reads key strokes. True means, key inputs should be hidden
 
                 if (inputKey.Key == ConsoleKey.Enter)
                 {
@@ -33,6 +37,7 @@ namespace MyATMAPP.AppUI
                         continue;
                     }
                 }
+
                 if (inputKey.Key == ConsoleKey.Backspace && input.Length > 0)
                 {
                     input.Remove(input.Length - 1, 1);
@@ -43,6 +48,7 @@ namespace MyATMAPP.AppUI
                     Console.Write(asterics + "*");
                 }
             }
+
             return input.ToString();
         }
 
@@ -56,6 +62,7 @@ namespace MyATMAPP.AppUI
             {
                 Console.ForegroundColor = ConsoleColor.Red;
             }
+
             Console.WriteLine(message);
             Console.ResetColor();
             ClickEnterToContinue();
@@ -63,7 +70,7 @@ namespace MyATMAPP.AppUI
 
         public static string? GetUserInput(string prompt)
         {
-            Console.WriteLine($"Enter {prompt}");
+            Console.WriteLine($"\nEnter {prompt}");
             return Console.ReadLine();
         }
 
@@ -80,9 +87,15 @@ namespace MyATMAPP.AppUI
             for (int i = 0; i < timer; i++)
             {
                 Console.Write(".");
-                Thread.Sleep(200); // Delays the timer for 200 milliseconds
+                Thread.Sleep(200); //Delays the timer for 200 milliseconds
             }
+
             Console.Clear();
+        }
+
+        public static string FormatAmount(decimal amt)
+        {
+            return String.Format(culture, "{0:C2}", amt);
         }
     }
 }

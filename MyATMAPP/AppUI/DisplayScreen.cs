@@ -43,5 +43,31 @@ namespace MyATMAPP.AppUI
             AppUtility.ClickEnterToContinue();
             Environment.Exit(1);
         }
+        
+        internal static void WelcomeCustomer(string fullName)
+        {
+            Console.WriteLine($"Welcome back, {fullName}");
+            AppUtility.ClickEnterToContinue();
+        }
+
+        internal static void DisplayAppMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("\n\nTransaction Menu");
+            Console.WriteLine("................\n");
+            Console.WriteLine("0. Account Balance");
+            Console.WriteLine("1. Cash Deposit");
+            Console.WriteLine("2. Withdrawal");
+            Console.WriteLine("3. Transfer");
+            Console.WriteLine("4. Transactions");
+            Console.WriteLine("5. Logout");
+        }
+
+        internal static void LogOutProgress()
+        {
+            Console.WriteLine("Thank you for your patronage");
+            AppUtility.PrintDotAnimation();
+            Console.Clear();
+        }
     }
 }
