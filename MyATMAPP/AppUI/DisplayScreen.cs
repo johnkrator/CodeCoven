@@ -19,7 +19,6 @@ namespace MyATMAPP.AppUI
 
             // App utility
             AppUtility.ClickEnterToContinue();
-
         }
 
         internal static UserAccount UserLoginForm()

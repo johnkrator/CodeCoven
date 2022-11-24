@@ -1,0 +1,15 @@
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\bin\Debug\net6.0\SystemExceptionHandling.exe
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\bin\Debug\net6.0\SystemExceptionHandling.deps.json
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\bin\Debug\net6.0\SystemExceptionHandling.runtimeconfig.json
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\bin\Debug\net6.0\SystemExceptionHandling.dll
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\bin\Debug\net6.0\SystemExceptionHandling.pdb
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\SystemExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\SystemExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\SystemExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\SystemExceptionHandling.AssemblyInfo.cs
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\SystemExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\SystemExceptionHandling.dll
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\refint\SystemExceptionHandling.dll
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\SystemExceptionHandling.pdb
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\SystemExceptionHandling.genruntimeconfig.cache
+C:\Users\John\Documents\BEZAO-VS\SystemExceptionHandling\obj\Debug\net6.0\ref\SystemExceptionHandling.dll
