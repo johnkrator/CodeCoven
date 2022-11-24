@@ -7,7 +7,7 @@
             MajorErrorHandling main = new MajorErrorHandling();
             main.division(10, 10);
 
-            // Custom exception
+            // Custom exceptions
             CustomErrorHandling customErrorHandling = new CustomErrorHandling();
             customErrorHandling.Output();
 
