@@ -11,7 +11,7 @@
         /*User-defined exception classes are derived from the Exception class.*/
         public class Temperature
         {
-            int temperature = 2;
+            int temperature = 10;
 
             public void showTemp()
             {

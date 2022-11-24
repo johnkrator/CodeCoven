@@ -17,11 +17,11 @@
             }
             catch (DivideByZeroException e)
             {
-                Console.WriteLine("Exception caught: {0}", e);
+                Console.WriteLine($"Exception caught: {e}");
             }
             finally
             {
-                Console.WriteLine("Result: {0}", result);
+                Console.WriteLine($"Result: {result}");
             }
         }
     }
