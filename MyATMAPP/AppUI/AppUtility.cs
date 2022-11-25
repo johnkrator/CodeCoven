@@ -6,7 +6,13 @@ namespace MyATMAPP.AppUI
     // This class was created to allow for decoupling
     public static class AppUtility
     {
-        private static CultureInfo culture = new CultureInfo("en-NG");
+        private static long transactionId;
+        private static CultureInfo culture = new CultureInfo("en-US");
+
+        public static long GetTransactionId()
+        {
+            return ++transactionId;
+        }
 
         public static string GetSecretInput(string prompt)
         {

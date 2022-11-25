@@ -2,10 +2,11 @@
 
 namespace MyATMAPP.AppUI
 {
-
     // static because, I wouldn't want to instantiate the class before using it
     public static class DisplayScreen
     {
+        internal static string cur = "N ";
+
         internal static void Welcome()
         {
             Console.Clear();
@@ -39,11 +40,12 @@ namespace MyATMAPP.AppUI
         internal static void PrintLockScreen()
         {
             Console.Clear();
-            AppUtility.PrintMessage("Oops! Your account is locked. Please go to nearest branch to unlock your account.");
+            AppUtility.PrintMessage(
+                "Oops! Your account is locked. Please go to nearest branch to unlock your account.");
             AppUtility.ClickEnterToContinue();
             Environment.Exit(1);
         }
-        
+
         internal static void WelcomeCustomer(string fullName)
         {
             Console.WriteLine($"Welcome back, {fullName}");
