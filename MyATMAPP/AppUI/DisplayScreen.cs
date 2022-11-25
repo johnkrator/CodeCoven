@@ -71,5 +71,51 @@ namespace MyATMAPP.AppUI
             AppUtility.PrintDotAnimation();
             Console.Clear();
         }
+
+        internal static int SelectAmount()
+        {
+            Console.WriteLine($"1. {cur}500                5. {cur}10,000");
+            Console.WriteLine($"2. {cur}1,000              6. {cur}15,000");
+            Console.WriteLine($"3. {cur}2,000              7. {cur}20,000");
+            Console.WriteLine($"4. {cur}5,000              8. {cur}40,000");
+            Console.WriteLine($"0: Other");
+
+            int selectedAmount = UserValidator.Convert<int>("Option: ");
+            switch (selectedAmount)
+            {
+                case 1:
+                    return 500;
+                    break;
+                case 2:
+                    return 1000;
+                    break;
+                case 3:
+                    return 2000;
+                    break;
+                case 4:
+                    return 5000;
+                    break;
+                case 5:
+                    return 10000;
+                    break;
+                case 6:
+                    return 15000;
+                    break;
+                case 7:
+                    return 20000;
+                    break;
+                case 8:
+                    return 40000;
+                    break;
+                case 0:
+                    return 0;
+                    break;
+                default:
+                    AppUtility.PrintMessage("Invalid input. Please try again.", false);
+                    selectedAmount();
+                    return -1;
+                    break;
+            }
+        }
     }
 }

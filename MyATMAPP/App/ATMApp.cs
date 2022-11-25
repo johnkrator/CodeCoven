@@ -208,7 +208,33 @@ namespace MyATMAPP.App
 
         public void ViewTransaction()
         {
-            throw new NotImplementedException();
+            var transactionAmount = 0;
+            int selectedAmount = DisplayScreen.SelectAmount();
+            if (selectedAmount == -1)
+            {
+                selectedAmount = DisplayScreen.SelectAmount();
+            }
+            else if (selectedAmount != 0)
+            {
+                transactionAmount = selectedAmount;
+            }
+            else
+            {
+                transactionAmount = UserValidator.Convert<int>($"amount {DisplayScreen.cur}");
+            }
+
+            //input validation
+            if (transactionAmount <= 0)
+            {
+                AppUtility.PrintMessage("Amount needs to be greater than zero.", false);
+                return;
+            }
+
+            if (transactionAmount % 500 != 0)
+            {
+                AppUtility.PrintMessage("You can only withdraw in the multiple of 500 or 1000", false);
+                return;
+            }
         }
     }
 }
