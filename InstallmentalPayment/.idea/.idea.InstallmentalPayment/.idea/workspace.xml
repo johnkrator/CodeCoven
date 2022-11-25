@@ -7,7 +7,10 @@
     <list default="true" id="553e3eec-1ce3-4635-ad4b-983cbc480166" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InstallmentalPayment/PayOnInstallment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/PayOnInstallment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/bin/Debug/InstallmentalPayment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/bin/Debug/InstallmentalPayment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/bin/Debug/InstallmentalPayment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/bin/Debug/InstallmentalPayment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,25 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "rider.code.cleanup.on.save": "true",
-    "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Built-in: Reformat Code&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "GitIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="InstallmentalPayment" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -75,8 +78,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669342798015</updated>
-      <workItem from="1669342803734" duration="10207000" />
+      <workItem from="1669342803734" duration="10915000" />
+      <workItem from="1669393212515" duration="3094000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1669390587858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669390587858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +110,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
