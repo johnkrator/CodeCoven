@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e3eec-1ce3-4635-ad4b-983cbc480166" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InstallmentalPayment/InstallmentalPayment.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InstallmentalPayment/PayOnInstallment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InstallmentalPayment/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InstallmentalPayment/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyATMAPP/App/ATMApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyATMAPP/App/ATMApp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyATMAPP/AppUI/DisplayScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyATMAPP/AppUI/DisplayScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/PayOnInstallment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/PayOnInstallment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861e23c672704a4a8eca9c234af0cac552e590/08/9e8ac7a0/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,6 +34,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "rider.code.cleanup.on.save": "true",
+    "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -76,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669342798015</updated>
-      <workItem from="1669342803734" duration="2015000" />
+      <workItem from="1669342803734" duration="10207000" />
     </task>
     <servers />
   </component>

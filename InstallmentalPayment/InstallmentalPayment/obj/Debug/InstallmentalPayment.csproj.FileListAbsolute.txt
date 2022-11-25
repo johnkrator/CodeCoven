@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO-VS\InstallmentalPayment\InstallmentalPayment\bin\Debug\InstallmentalPayment.exe
+C:\Users\John\Documents\BEZAO-VS\InstallmentalPayment\InstallmentalPayment\bin\Debug\InstallmentalPayment.pdb
+C:\Users\John\Documents\BEZAO-VS\InstallmentalPayment\InstallmentalPayment\obj\Debug\InstallmentalPayment.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO-VS\InstallmentalPayment\InstallmentalPayment\obj\Debug\InstallmentalPayment.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO-VS\InstallmentalPayment\InstallmentalPayment\obj\Debug\InstallmentalPayment.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO-VS\InstallmentalPayment\InstallmentalPayment\obj\Debug\InstallmentalPayment.exe
+C:\Users\John\Documents\BEZAO-VS\InstallmentalPayment\InstallmentalPayment\obj\Debug\InstallmentalPayment.pdb
