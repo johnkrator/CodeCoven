@@ -10,7 +10,7 @@ namespace MusicPlayer
             int userInput = 0;
             do
             {
-                Console.WriteLine("Please select an option\n1. Add a Song\n2. Remove a song\n3. Create a playlist\n4. Display all songs\n5. Exit");
+                Console.WriteLine("Please choose an option\n1. Add a Song\n2. Remove a song\n3. Create a playlist\n4. Display all songs\n5. Exit");
 
                 userInput = Convert.ToInt32(Console.ReadLine());
 
@@ -27,6 +27,11 @@ namespace MusicPlayer
                         songPlayer.AddSongs(song);
                         break;
                     case 2:
+                        Console.WriteLine("Remove a song");
+                        string songTitle = Console.ReadLine();
+
+                        // Songs songList = new Songs(songTitle);
+                        // songPlayer.RemoveSong(songTitle);
                         break;
                     case 3:
                         break;
