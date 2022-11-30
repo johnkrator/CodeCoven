@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO-VS\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\John\Documents\BEZAO-VS\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\John\Documents\BEZAO-VS\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO-VS\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO-VS\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO-VS\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\John\Documents\BEZAO-VS\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
