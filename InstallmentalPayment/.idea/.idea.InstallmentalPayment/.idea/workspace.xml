@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="553e3eec-1ce3-4635-ad4b-983cbc480166" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InstallmentalPayment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/PayOnInstallment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/PayOnInstallment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/bin/Debug/InstallmentalPayment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/bin/Debug/InstallmentalPayment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/bin/Debug/InstallmentalPayment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/bin/Debug/InstallmentalPayment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InstallmentalPayment/obj/Debug/InstallmentalPayment.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669342798015</updated>
       <workItem from="1669342803734" duration="10915000" />
-      <workItem from="1669393212515" duration="3094000" />
+      <workItem from="1669393212515" duration="4566000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669390587858</created>
@@ -88,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669390587858</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1669414095516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669414095516</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
