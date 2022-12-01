@@ -10,28 +10,25 @@ namespace MusicPlayer
             int userInput = 0;
             do
             {
-                Console.WriteLine("Please choose an option\n1. Add a Song\n2. Remove a song\n3. Create a playlist\n4. Display all songs\n5. Exit");
+                Console.WriteLine(
+                    "\nPlease select an option\n1. Add a Song\n2. Remove a song\n3. Create a playlist\n4. Display all songs\n5. Exit\n");
 
                 userInput = Convert.ToInt32(Console.ReadLine());
 
                 switch (userInput)
                 {
                     case 1:
-                        Console.WriteLine("Enter SongName");
+                        Console.Write("Enter SongName:  ");
                         string songName = Console.ReadLine();
-                        Console.WriteLine("Enter Name of Artist");
+                        Console.Write("Enter Name of Artist: ");
                         string artist = Console.ReadLine();
 
                         Songs song = new Songs(songName, artist);
-                        
+
                         songPlayer.AddSongs(song);
                         break;
                     case 2:
-                        Console.WriteLine("Remove a song");
-                        string songTitle = Console.ReadLine();
-
-                        // Songs songList = new Songs(songTitle);
-                        // songPlayer.RemoveSong(songTitle);
+                        // songPlayer.RemoveSong();
                         break;
                     case 3:
                         break;
@@ -39,7 +36,6 @@ namespace MusicPlayer
                         songPlayer.DisplaySongs();
                         break;
                 }
-                
             } while (userInput != 5);
         }
     }
