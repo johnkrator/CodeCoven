@@ -4,10 +4,11 @@ namespace MusicPlayer
 {
     public class Display
     {
-        public void SongsDisplay()
+        public void DisplayOption()
         {
             SongPlayer songPlayer = new SongPlayer();
             int userInput = 0;
+
             do
             {
                 Console.WriteLine(
@@ -43,7 +44,7 @@ namespace MusicPlayer
 
         public void Run()
         {
-            SongsDisplay();
+            DisplayOption();
         }
     }
 }
