@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace MusicPlayer
 {
     public class SongPlayer
-    { 
+    {
         List<Songs> songsList = new List<Songs>();
 
         public void AddSongs(Songs song)
@@ -21,8 +21,7 @@ namespace MusicPlayer
         {
             foreach (Songs song in songsList)
             {
-                Console.WriteLine($"Song Name: {song.SongName} Artist: {song.Artist}");
-                
+                Console.WriteLine($"Song ID: {song.Id}\nSong Name: {song.SongName}\nArtist: {song.Artist}");
             }
         }
     }
