@@ -4,13 +4,7 @@
     <projectFile>ATMConsoleApp/ATMConsoleApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82780a78-a54a-4278-9dee-b700ed6a9852" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="82780a78-a54a-4278-9dee-b700ed6a9852" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +18,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/App/ATMApp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/App/ATMApp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/App/ATMApp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/App/ATMApp.cs" root0="SKIP_HIGHLIGHTING" />
@@ -118,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670107531677</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1670108081173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670108081173</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
