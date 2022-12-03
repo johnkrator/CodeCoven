@@ -292,7 +292,10 @@ namespace MyATMAPP.App
                 return;
             }
         }
-        
-        private void ProcessInternalTransfer(InternalTransfer internalTransfer){}
+
+        private void ProcessInternalTransfer(InternalTransfer internalTransfer)
+        {
+            Console.WriteLine("hello transfer processing");
+        }
     }
 }
