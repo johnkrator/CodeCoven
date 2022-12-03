@@ -9,7 +9,8 @@ namespace MyATMAPP.App
     {
         private List<UserAccount>? userAccountList;
         private UserAccount? selectedAccount;
-        private List<Transaction>? listOfTransactions;
+        private List<Transaction> listOfTransactions;
+        private const decimal minimumKeptAmount = 500;
 
         public void Run()
         {
@@ -106,7 +107,7 @@ namespace MyATMAPP.App
                     PlaceDeposit();
                     break;
                 case (int)AppMenu.MakeWithdrawal:
-                    Console.WriteLine("Making withdrawal...");
+                    MakeWithDrawal();
                     break;
                 case (int)AppMenu.InternalTransfer:
                     Console.WriteLine("Making transfer...");
@@ -171,7 +172,62 @@ namespace MyATMAPP.App
 
         public void MakeWithDrawal()
         {
-            throw new NotImplementedException();
+            var transactionAmount = 0;
+            int selectedAmount = DisplayScreen.SelectAmount();
+
+            if (selectedAmount == -1)
+            {
+                selectedAmount = DisplayScreen.SelectAmount();
+            }
+            else if (selectedAmount != 0)
+            {
+                transactionAmount = selectedAmount;
+            }
+            else
+            {
+                transactionAmount = UserValidator.Convert<int>($"amount {DisplayScreen.cur}");
+            }
+
+            // input validation
+            if (transactionAmount <= 0)
+            {
+                AppUtility.PrintMessage($"Amount needs to be greater than zero. Please try again.", false);
+                return;
+            }
+
+            if (transactionAmount % 500 != 0)
+            {
+                AppUtility.PrintMessage($"You can only withdraw amount in multiples of 500 and 1000. Please try again",
+                    false);
+                return;
+            }
+
+            // Business logic validation
+            if (transactionAmount > selectedAccount._AccountBalance)
+            {
+                AppUtility.PrintMessage(
+                    $"Withdrawal failed! Your balance is too low to withdraw {AppUtility.FormatAmount(transactionAmount)}",
+                    false);
+                return;
+            }
+
+            if ((selectedAccount._AccountBalance - transactionAmount) < minimumKeptAmount)
+            {
+                AppUtility.PrintMessage(
+                    $"Withdrawal failed! Your account needs to have a minimum of {AppUtility.FormatAmount(minimumKeptAmount)}",
+                    false);
+                return;
+            }
+
+            // Bind withdrawal details to transaction object
+            InsertTranction(selectedAccount._Id, TransactionType.WithDrawal, -transactionAmount, "");
+
+            // Update account balance 
+            selectedAccount._AccountBalance -= transactionAmount;
+
+            // Success message
+            AppUtility.PrintMessage($"You have successfully withdrawn {AppUtility.FormatAmount(transactionAmount)}",
+                true);
         }
 
         public bool PreviewBankNoteCount(int amount)
@@ -236,5 +292,7 @@ namespace MyATMAPP.App
                 return;
             }
         }
+        
+        private void ProcessInternalTransfer(InternalTransfer internalTransfer){}
     }
 }

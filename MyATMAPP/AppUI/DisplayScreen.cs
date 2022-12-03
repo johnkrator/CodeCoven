@@ -3,7 +3,7 @@
 namespace MyATMAPP.AppUI
 {
     // static because, I wouldn't want to instantiate the class before using it
-    public static class DisplayScreen
+    public class DisplayScreen
     {
         internal static string cur = "N ";
 
@@ -112,10 +112,18 @@ namespace MyATMAPP.AppUI
                     break;
                 default:
                     AppUtility.PrintMessage("Invalid input. Please try again.", false);
-                    selectedAmount();
                     return -1;
                     break;
             }
+        }
+
+        internal InternalTransfer InternalTransferForm()
+        {
+            var internalTransfer = new InternalTransfer();
+            internalTransfer.RecipientBankAccountNumber = UserValidator.Convert<long>($"recipient's account number: ");
+            internalTransfer.TransferAmount = UserValidator.Convert<decimal>($"amount {cur}");
+            internalTransfer.RecipientBankAccountName = AppUtility.GetUserInput($"recipient's name:");
+            return internalTransfer; // Using this to collect the data for the transfer
         }
     }
 }
