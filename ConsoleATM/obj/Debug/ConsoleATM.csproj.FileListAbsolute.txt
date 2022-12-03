@@ -1,7 +1,0 @@
-C:\Users\John\Documents\BEZAO-VS\ConsoleATM\ConsoleATM\bin\Debug\ConsoleATM.exe
-C:\Users\John\Documents\BEZAO-VS\ConsoleATM\ConsoleATM\bin\Debug\ConsoleATM.pdb
-C:\Users\John\Documents\BEZAO-VS\ConsoleATM\ConsoleATM\obj\Debug\ConsoleATM.csproj.AssemblyReference.cache
-C:\Users\John\Documents\BEZAO-VS\ConsoleATM\ConsoleATM\obj\Debug\ConsoleATM.csproj.SuggestedBindingRedirects.cache
-C:\Users\John\Documents\BEZAO-VS\ConsoleATM\ConsoleATM\obj\Debug\ConsoleATM.csproj.CoreCompileInputs.cache
-C:\Users\John\Documents\BEZAO-VS\ConsoleATM\ConsoleATM\obj\Debug\ConsoleATM.exe
-C:\Users\John\Documents\BEZAO-VS\ConsoleATM\ConsoleATM\obj\Debug\ConsoleATM.pdb
