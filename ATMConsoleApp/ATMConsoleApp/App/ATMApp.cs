@@ -5,6 +5,7 @@ using ATMConsoleApp.AppUI;
 using ATMConsoleApp.Domain.Entities;
 using ATMConsoleApp.Domain.Enums;
 using ATMConsoleApp.Domain.Interfaces;
+using ConsoleTables;
 
 namespace ATMConsoleApp.App
 {
@@ -26,8 +27,11 @@ namespace ATMConsoleApp.App
             DisplayScreen.Welcome();
             CheckUserCardNumberAndPassword();
             DisplayScreen.WelcomeCustomer(selectedAccount._FullName);
-            DisplayScreen.DisplayAppMenu();
-            ProcessMenuOptions();
+            while (true)
+            {
+                DisplayScreen.DisplayAppMenu();
+                ProcessMenuOptions();
+            }
         }
 
         public void InitializeData()
@@ -123,7 +127,7 @@ namespace ATMConsoleApp.App
                     ProcessInternalTransfer(internalTransfer);
                     break;
                 case (int)AppMenu.ViewTransaction:
-                    Console.WriteLine("Loading transactions...");
+                    ViewTransaction();
                     break;
                 case (int)AppMenu.Logout:
                     DisplayScreen.LoginProgress();
@@ -145,7 +149,7 @@ namespace ATMConsoleApp.App
         public void PlaceDeposit()
         {
             Console.WriteLine($"\nOnly multiples of 500 and 1000 are allowed!");
-            var transactionAmt = UserValidator.Convert<int>($"amount {DisplayScreen.cur}");
+            var transactionAmt = UserValidator.Convert<int>($"amount {DisplayScreen.currency}");
 
             //Simulate counting
             Console.WriteLine($"\nChecking and counting bank notes.");
@@ -195,7 +199,7 @@ namespace ATMConsoleApp.App
             }
             else
             {
-                transactionAmount = UserValidator.Convert<int>($"amount {DisplayScreen.cur}");
+                transactionAmount = UserValidator.Convert<int>($"amount {DisplayScreen.currency}");
             }
 
             // input validation
@@ -246,8 +250,8 @@ namespace ATMConsoleApp.App
             int fiveHundredNotesCount = (amount % 1000) / 500;
 
             Console.WriteLine("\nSummary: ");
-            Console.WriteLine($"{DisplayScreen.cur}1000 X {thousandNoteCount} = {1000 * thousandNoteCount}");
-            Console.WriteLine($"{DisplayScreen.cur}500 X {fiveHundredNotesCount} = {500 * fiveHundredNotesCount}");
+            Console.WriteLine($"{DisplayScreen.currency}1000 X {thousandNoteCount} = {1000 * thousandNoteCount}");
+            Console.WriteLine($"{DisplayScreen.currency}500 X {fiveHundredNotesCount} = {500 * fiveHundredNotesCount}");
             Console.WriteLine($"Total amount: {AppUtility.FormatAmount(amount)}\n\n");
 
             int opt = UserValidator.Convert<int>("Enter 1 to confirm");
@@ -274,32 +278,27 @@ namespace ATMConsoleApp.App
 
         public void ViewTransaction()
         {
-            var transactionAmount = 0;
-            int selectedAmount = DisplayScreen.SelectAmount();
-            if (selectedAmount == -1)
+            var filteredTransactionList =
+                listOfTransactions.Where(t => t.UserBankAccountId == selectedAccount._Id).ToList();
+
+            // Check if transaction exist
+            if (filteredTransactionList.Count <= 0)
             {
-                selectedAmount = DisplayScreen.SelectAmount();
-            }
-            else if (selectedAmount != 0)
-            {
-                transactionAmount = selectedAmount;
+                AppUtility.PrintMessage($"You have no transaction yet.", true);
             }
             else
             {
-                transactionAmount = UserValidator.Convert<int>($"amount {DisplayScreen.cur}");
-            }
+                var table = new ConsoleTable("Id", "Transaction Date", "Type", "Descriptions",
+                    "Amount" + DisplayScreen.currency);
+                foreach (var transaction in filteredTransactionList)
+                {
+                    table.AddRow(transaction.TransactionId, transaction.TransactionDate, transaction.TransactionType,
+                        transaction.Description, transaction.TransactionAmount);
+                }
 
-            //input validation
-            if (transactionAmount <= 0)
-            {
-                AppUtility.PrintMessage("Amount needs to be greater than zero.", false);
-                return;
-            }
-
-            if (transactionAmount % 500 != 0)
-            {
-                AppUtility.PrintMessage("You can only withdraw in the multiple of 500 or 1000", false);
-                return;
+                table.Options.EnableCount = false;
+                table.Write();
+                AppUtility.PrintMessage($"You have {filteredTransactionList.Count} transaction(s)", true);
             }
         }
 

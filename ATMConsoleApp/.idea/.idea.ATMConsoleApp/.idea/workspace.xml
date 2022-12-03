@@ -6,11 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="82780a78-a54a-4278-9dee-b700ed6a9852" name="Changes" comment="updated method for account transfer">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/ATMConsoleApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/ATMConsoleApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/AppUI/DisplayScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/AppUI/DisplayScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="dev" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/App/ATMApp.cs" root0="SKIP_HIGHLIGHTING" />
@@ -26,20 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "rider.code.cleanup.on.save": "true",
-    "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Built-in: Reformat Code&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ATMConsoleApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />

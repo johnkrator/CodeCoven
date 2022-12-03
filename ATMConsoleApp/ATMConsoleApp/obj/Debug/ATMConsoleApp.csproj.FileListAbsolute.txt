@@ -5,3 +5,6 @@ C:\Users\John\Documents\BEZAO-VS\ATMConsoleApp\ATMConsoleApp\obj\Debug\ATMConsol
 C:\Users\John\Documents\BEZAO-VS\ATMConsoleApp\ATMConsoleApp\obj\Debug\ATMConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\John\Documents\BEZAO-VS\ATMConsoleApp\ATMConsoleApp\obj\Debug\ATMConsoleApp.exe
 C:\Users\John\Documents\BEZAO-VS\ATMConsoleApp\ATMConsoleApp\obj\Debug\ATMConsoleApp.pdb
+C:\Users\John\Documents\BEZAO-VS\ATMConsoleApp\ATMConsoleApp\bin\Debug\ConsoleTables.dll
+C:\Users\John\Documents\BEZAO-VS\ATMConsoleApp\ATMConsoleApp\bin\Debug\ConsoleTables.pdb
+C:\Users\John\Documents\BEZAO-VS\ATMConsoleApp\ATMConsoleApp\obj\Debug\ATMConsoleApp.csproj.CopyComplete

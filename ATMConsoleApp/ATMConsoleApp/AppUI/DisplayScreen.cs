@@ -6,7 +6,7 @@ namespace ATMConsoleApp.AppUI
     // static because, I wouldn't want to instantiate the class before using it
     public class DisplayScreen
     {
-        internal static string cur = "N ";
+        internal static string currency = "N ";
 
         internal static void Welcome()
         {
@@ -75,10 +75,10 @@ namespace ATMConsoleApp.AppUI
 
         internal static int SelectAmount()
         {
-            Console.WriteLine($"1. {cur}500                5. {cur}10,000");
-            Console.WriteLine($"2. {cur}1,000              6. {cur}15,000");
-            Console.WriteLine($"3. {cur}2,000              7. {cur}20,000");
-            Console.WriteLine($"4. {cur}5,000              8. {cur}40,000");
+            Console.WriteLine($"1. {currency}500                5. {currency}10,000");
+            Console.WriteLine($"2. {currency}1,000              6. {currency}15,000");
+            Console.WriteLine($"3. {currency}2,000              7. {currency}20,000");
+            Console.WriteLine($"4. {currency}5,000              8. {currency}40,000");
             Console.WriteLine($"0: Other");
 
             int selectedAmount = UserValidator.Convert<int>("Option: ");
@@ -122,7 +122,7 @@ namespace ATMConsoleApp.AppUI
         {
             var internalTransfer = new InternalTransfer();
             internalTransfer.RecipientBankAccountNumber = UserValidator.Convert<long>($"recipient's account number: ");
-            internalTransfer.TransferAmount = UserValidator.Convert<decimal>($"amount {cur}");
+            internalTransfer.TransferAmount = UserValidator.Convert<decimal>($"amount {currency}");
             internalTransfer.RecipientBankAccountName = AppUtility.GetUserInput($"recipient's name:");
             return internalTransfer; // Using this to collect the data for the transfer
         }
