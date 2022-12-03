@@ -1,0 +1,34 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_3_2022_2_02_PM_[Changes]1" date="1670072588327" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.ThrowAwayApp/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_2_02_PM_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/3/2022 2:02 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="ThrowAwayApp/obj/Debug/ThrowAwayApp.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ThrowAwayApp/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_2_02_PM_[Changes]1/ThrowAwayApp.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ThrowAwayApp/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_2_02_PM_[Changes]1/ConsoleATM.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ThrowAwayApp/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_2_02_PM_[Changes]1/ConsoleATM.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ThrowAwayApp/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_2_02_PM_[Changes]1/ConsoleATM.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.csproj.SuggestedBindingRedirects.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ThrowAwayApp/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_2_02_PM_[Changes]1/ConsoleATM.csproj.SuggestedBindingRedirects.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.ThrowAwayApp/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_2_02_PM_[Changes]1/ConsoleATM.csproj.CoreCompileInputs.cache" />
+  </binary>
+</changelist>
