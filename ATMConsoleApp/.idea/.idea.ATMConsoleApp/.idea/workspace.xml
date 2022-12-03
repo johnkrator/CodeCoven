@@ -5,92 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82780a78-a54a-4278-9dee-b700ed6a9852" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/ATMConsoleApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/App/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/AppUI/AppUtility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/AppUI/DisplayScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/AppUI/UserValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Domain/Entities/InternalTransfer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Domain/Entities/Transaction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Domain/Entities/UserAccount.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Domain/Enums/AppMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Domain/Enums/TransactionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Domain/Interfaces/ITransaction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Domain/Interfaces/IUserAccountActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Domain/Interfaces/IUserLogin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATMConsoleApp/obj/Debug/ATMConsoleApp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/.idea/.idea.ConsoleATM.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/.idea/.idea.ConsoleATM.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/App/ATMApp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/App/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/AppUI/AppUtility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/AppUI/DisplayScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/AppUI/UserValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM.csproj~" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Domain/Entities/InternalTransfer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Domain/Entities/Transaction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Domain/Entities/UserAccount.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Domain/Enums/AppMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Domain/Enums/TransactionType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Domain/Interfaces/ITransaction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Domain/Interfaces/IUserAccountActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Domain/Interfaces/IUserLogin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/bin/Debug/ConsoleATM.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/bin/Debug/ConsoleATM.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/obj/Debug/ConsoleATM.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/obj/Debug/ConsoleATM.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/obj/Debug/ConsoleATM.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/obj/Debug/ConsoleATM.csproj.SuggestedBindingRedirects.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/obj/Debug/ConsoleATM.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleATM/obj/Debug/ConsoleATM.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/bin/Debug/ThrowAwayApp.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/bin/Debug/ThrowAwayApp.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/obj/Debug/ThrowAwayApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/obj/Debug/ThrowAwayApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/obj/Debug/ThrowAwayApp.csproj.SuggestedBindingRedirects.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/obj/Debug/ThrowAwayApp.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/obj/Debug/ThrowAwayApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/.idea/.idea.ConsoleATM.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/.idea/.idea.ConsoleATM.dir/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleATM/.idea/.idea.ConsoleATM.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/.idea/.idea.ConsoleATM.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleATM/.idea/.idea.ConsoleATM.dir/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/.idea/.idea.ConsoleATM/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/App/ATMApp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/App/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/AppUI/AppUtility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/AppUI/DisplayScreen.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/AppUI/UserValidator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/ConsoleATM.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/ConsoleATM.csproj~" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Domain/Entities/InternalTransfer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Domain/Entities/Transaction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Domain/Entities/UserAccount.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Domain/Enums/AppMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Domain/Enums/TransactionType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Domain/Interfaces/ITransaction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Domain/Interfaces/IUserAccountActions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Domain/Interfaces/IUserLogin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/bin/Debug/ConsoleATM.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/bin/Debug/ConsoleATM.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleATM/ConsoleATM/obj/Debug/ConsoleATM.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ThrowAwayApp/.idea/.idea.ThrowAwayApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThrowAwayApp/.idea/.idea.ThrowAwayApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +31,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "rider.code.cleanup.on.save": "true",
+    "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -145,8 +67,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670072986301</updated>
-      <workItem from="1670072987031" duration="1643000" />
+      <workItem from="1670072987031" duration="5176000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1670074686118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670074686118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,5 +98,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

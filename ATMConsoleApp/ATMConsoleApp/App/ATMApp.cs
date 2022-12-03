@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using ATMConsoleApp.AppUI;
 using ATMConsoleApp.Domain.Entities;
 using ATMConsoleApp.Domain.Enums;
@@ -7,12 +8,18 @@ using ATMConsoleApp.Domain.Interfaces;
 
 namespace ATMConsoleApp.App
 {
-     internal class ATMApp : IUserLogin, IUserAccountActions, ITransaction
+    internal class ATMApp : IUserLogin, IUserAccountActions, ITransaction
     {
         private List<UserAccount> userAccountList;
         private UserAccount selectedAccount;
         private List<Transaction> listOfTransactions;
         private const decimal minimumKeptAmount = 500;
+        private readonly DisplayScreen screen;
+
+        public ATMApp()
+        {
+            screen = new DisplayScreen();
+        }
 
         public void Run()
         {
@@ -112,7 +119,8 @@ namespace ATMConsoleApp.App
                     MakeWithDrawal();
                     break;
                 case (int)AppMenu.InternalTransfer:
-                    Console.WriteLine("Making transfer...");
+                    var internalTransfer = screen.InternalTransferForm();
+                    ProcessInternalTransfer(internalTransfer);
                     break;
                 case (int)AppMenu.ViewTransaction:
                     Console.WriteLine("Loading transactions...");
@@ -297,7 +305,66 @@ namespace ATMConsoleApp.App
 
         private void ProcessInternalTransfer(InternalTransfer internalTransfer)
         {
-            Console.WriteLine("hello transfer processing");
+            if (internalTransfer.TransferAmount <= 0)
+            {
+                AppUtility.PrintMessage($"Amount needs to be more than zero. Try again", false);
+                return;
+            }
+
+            // Check sender's account balance
+            if (internalTransfer.TransferAmount > selectedAccount._AccountBalance)
+            {
+                AppUtility.PrintMessage(
+                    $"Transfer failed! You do not have enough balance to transfer {AppUtility.FormatAmount(internalTransfer.TransferAmount)}",
+                    false);
+                return;
+            }
+
+            // Check minimum amount kept
+            if ((selectedAccount._AccountBalance - minimumKeptAmount) < minimumKeptAmount)
+            {
+                AppUtility.PrintMessage(
+                    $"Transfer failed! Your account needs to have a minimum of {AppUtility.FormatAmount(minimumKeptAmount)}",
+                    false);
+                return;
+            }
+
+            // Check if receiver's bank account number is valid
+            var selectBankAccountReceiver = (from userAccount in userAccountList
+                where userAccount._AccountNumber == internalTransfer.RecipientBankAccountNumber
+                select userAccount).FirstOrDefault();
+
+            if (selectBankAccountReceiver == null)
+            {
+                AppUtility.PrintMessage($"Transfer failed. Receiver bank account number is invalid", false);
+                return;
+            }
+
+            // Check receiver's name
+            if (selectBankAccountReceiver._FullName != internalTransfer.RecipientBankAccountName)
+            {
+                AppUtility.PrintMessage($"Transfer failed! Recipient's account name does not match", false);
+                return;
+            }
+
+            // Add transaction to transaction's sender's record
+            InsertTranction(selectedAccount._Id, TransactionType.Transfer, -internalTransfer.TransferAmount,
+                $"Transfered to {selectBankAccountReceiver._AccountNumber} ({selectBankAccountReceiver._FullName})");
+
+            // Update sender's account
+            selectedAccount._AccountBalance -= internalTransfer.TransferAmount;
+
+            // Add transaction record receiver
+            InsertTranction(selectBankAccountReceiver._Id, TransactionType.Transfer, internalTransfer.TransferAmount,
+                $"Transfered {selectedAccount._AccountNumber} ({selectedAccount._FullName})");
+
+            // Update receiver's account balance
+            selectBankAccountReceiver._AccountBalance += internalTransfer.TransferAmount;
+
+            // Print success message
+            AppUtility.PrintMessage(
+                $"You have successfully transfered {AppUtility.FormatAmount(internalTransfer.TransferAmount)} to {internalTransfer.RecipientBankAccountName}",
+                true);
         }
     }
 }
