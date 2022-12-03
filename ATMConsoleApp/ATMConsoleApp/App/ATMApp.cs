@@ -191,7 +191,8 @@ namespace ATMConsoleApp.App
 
             if (selectedAmount == -1)
             {
-                selectedAmount = DisplayScreen.SelectAmount();
+                MakeWithDrawal();
+                return;
             }
             else if (selectedAmount != 0)
             {
