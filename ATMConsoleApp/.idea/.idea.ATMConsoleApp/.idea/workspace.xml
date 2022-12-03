@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82780a78-a54a-4278-9dee-b700ed6a9852" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/bin/Debug/ATMConsoleApp.pdb" afterDir="false" />
@@ -25,6 +24,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/App/ATMApp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/App/ATMApp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/App/ATMApp.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670107027222</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial commit">
+      <created>1670107531677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670107531677</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

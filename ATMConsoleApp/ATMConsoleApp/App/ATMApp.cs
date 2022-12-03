@@ -321,7 +321,7 @@ namespace ATMConsoleApp.App
             }
 
             // Check minimum amount kept
-            if ((selectedAccount._AccountBalance - minimumKeptAmount) < minimumKeptAmount)
+            if ((selectedAccount._AccountBalance - internalTransfer.TransferAmount) < minimumKeptAmount)
             {
                 AppUtility.PrintMessage(
                     $"Transfer failed! Your account needs to have a minimum of {AppUtility.FormatAmount(minimumKeptAmount)}",
