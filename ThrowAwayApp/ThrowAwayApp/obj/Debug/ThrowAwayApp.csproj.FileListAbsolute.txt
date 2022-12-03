@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO-VS\ThrowAwayApp\ThrowAwayApp\bin\Debug\ThrowAwayApp.exe
+C:\Users\John\Documents\BEZAO-VS\ThrowAwayApp\ThrowAwayApp\bin\Debug\ThrowAwayApp.pdb
+C:\Users\John\Documents\BEZAO-VS\ThrowAwayApp\ThrowAwayApp\obj\Debug\ThrowAwayApp.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO-VS\ThrowAwayApp\ThrowAwayApp\obj\Debug\ThrowAwayApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO-VS\ThrowAwayApp\ThrowAwayApp\obj\Debug\ThrowAwayApp.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO-VS\ThrowAwayApp\ThrowAwayApp\obj\Debug\ThrowAwayApp.exe
+C:\Users\John\Documents\BEZAO-VS\ThrowAwayApp\ThrowAwayApp\obj\Debug\ThrowAwayApp.pdb

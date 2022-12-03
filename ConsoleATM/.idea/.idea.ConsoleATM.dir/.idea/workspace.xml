@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="026a79cc-4b2e-4aeb-b87e-0034f010d936" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleATM.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/ATMApp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppUI/AppUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppUI/DisplayScreen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppUI/UserValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleATM.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleATM.csproj~" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Entities/InternalTransfer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Entities/Transaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Entities/UserAccount.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Enums/AppMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Enums/TransactionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Interfaces/ITransaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Interfaces/IUserAccountActions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Interfaces/IUserLogin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/ConsoleATM.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/ConsoleATM.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/ConsoleATM.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/ConsoleATM.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/ConsoleATM.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/ConsoleATM.csproj.SuggestedBindingRedirects.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/ConsoleATM.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/ConsoleATM.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleATM.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleATM.dir/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleATM.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleATM.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleATM.dir/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleATM/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/App/ATMApp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/App/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/AppUI/AppUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/AppUI/DisplayScreen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/AppUI/UserValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/ConsoleATM.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/ConsoleATM.csproj~" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Domain/Entities/InternalTransfer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Domain/Entities/Transaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Domain/Entities/UserAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Domain/Enums/AppMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Domain/Enums/TransactionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Domain/Interfaces/ITransaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Domain/Interfaces/IUserAccountActions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Domain/Interfaces/IUserLogin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/bin/Debug/ConsoleATM.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/bin/Debug/ConsoleATM.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/obj/Debug/ConsoleATM.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/obj/Debug/ConsoleATM.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/obj/Debug/ConsoleATM.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/obj/Debug/ConsoleATM.csproj.SuggestedBindingRedirects.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/obj/Debug/ConsoleATM.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleATM/obj/Debug/ConsoleATM.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThrowAwayApp/.idea/.idea.ThrowAwayApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThrowAwayApp/.idea/.idea.ThrowAwayApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ThrowAwayApp/ThrowAwayApp/Program.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectId" id="2IPAOrUoJZ0B90AnW23GpfLmpFc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="026a79cc-4b2e-4aeb-b87e-0034f010d936" name="Changes" comment="" />
+      <created>1670072817671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670072817671</updated>
+      <workItem from="1670072817671" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
