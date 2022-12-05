@@ -4,22 +4,21 @@ namespace ATMConsoleApp.AppUI
 {
     public static class UserValidator
     {
-        // Generics explains the Type concepts better
         public static T Convert<T>(string prompt)
         {
-            bool _valid = false;
-            string _userInput;
+            bool valid = false;
+            string userInput;
 
-            while (!_valid)
+            while (!valid)
             {
-                _userInput = AppUtility.GetUserInput(prompt);
+                userInput = AppUtility.GetUserInput(prompt);
 
                 try
                 {
                     var converter = TypeDescriptor.GetConverter(typeof(T));
                     if (converter != null)
                     {
-                        return (T)converter.ConvertFromString(_userInput);
+                        return (T)converter.ConvertFromString(userInput);
                     }
                     else
                     {
@@ -32,6 +31,7 @@ namespace ATMConsoleApp.AppUI
                     AppUtility.PrintMessage("\nInvalid input. Be like you go like try am again.", false);
                 }
             }
+
             return default;
         }
     }
