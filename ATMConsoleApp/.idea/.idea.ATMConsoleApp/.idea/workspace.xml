@@ -4,7 +4,7 @@
     <projectFile>ATMConsoleApp/ATMConsoleApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82780a78-a54a-4278-9dee-b700ed6a9852" name="Changes" comment="">
+    <list default="true" id="82780a78-a54a-4278-9dee-b700ed6a9852" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATMConsoleApp/AppUI/UserValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATMConsoleApp/AppUI/UserValidator.cs" afterDir="false" />
     </list>
@@ -22,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ATMConsoleApp/App/ATMApp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/John/Documents/BEZAO-VS/ATMConsoleApp/ATMConsoleApp/AppUI/UserValidator.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +79,7 @@
       <updated>1670072986301</updated>
       <workItem from="1670072987031" duration="6009000" />
       <workItem from="1670160184984" duration="628000" />
-      <workItem from="1670254642953" duration="989000" />
+      <workItem from="1670254642953" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670074686118</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670108274485</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1670268566720</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670268566720</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
