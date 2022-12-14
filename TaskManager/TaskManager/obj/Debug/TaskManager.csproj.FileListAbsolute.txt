@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO-VS\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\John\Documents\BEZAO-VS\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\John\Documents\BEZAO-VS\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO-VS\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO-VS\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO-VS\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\John\Documents\BEZAO-VS\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
