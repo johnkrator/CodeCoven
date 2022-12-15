@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ba286a9-b648-4553-bebe-da82b15b0c7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TaskManager/Processes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Processes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/bin/Debug/TaskManager.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/TaskManager.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/bin/Debug/TaskManager.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/TaskManager.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/obj/Debug/TaskManager.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/TaskManager.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/obj/Debug/TaskManager.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/TaskManager.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/861e23c672704a4a8eca9c234af0cac552e590/af/5e1ef717/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2Iv8QXHF5CfFZ2017qnvJemhheH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -76,7 +84,7 @@
       <updated>1671050693854</updated>
       <workItem from="1671050770666" duration="3635000" />
       <workItem from="1671080143807" duration="297000" />
-      <workItem from="1671080582475" duration="9504000" />
+      <workItem from="1671080582475" duration="10479000" />
     </task>
     <servers />
   </component>
