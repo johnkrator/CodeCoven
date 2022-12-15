@@ -120,27 +120,51 @@ namespace TaskManager
 
         public static void CreateCustomThread()
         {
-            for (int i = 0; i < 2; i++)
+            try
             {
-                Console.WriteLine($"New thread created!");
+                for (int i = 0; i < 2; i++)
+                {
+                    Console.WriteLine($"New thread created!");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
             }
         }
 
         public static void ViewCurrentThreadList()
         {
-            ProcessThreadCollection currentThreads = Process.GetCurrentProcess().Threads;
-
-            foreach (ProcessThread thread in currentThreads)
+            try
             {
-                Console.WriteLine($"\n Thread id: {thread.Id}");
+                ProcessThreadCollection currentThreads = Process.GetCurrentProcess().Threads;
+
+                foreach (ProcessThread thread in currentThreads)
+                {
+                    Console.WriteLine($"\n Thread id: {thread.Id}");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
             }
         }
 
         public static void CheckThreadState()
         {
-            Thread thread;
-            thread = Thread.CurrentThread;
-            Console.WriteLine($"Is thread alive? : {thread.IsAlive}");
+            try
+            {
+                Thread thread;
+                thread = Thread.CurrentThread;
+                Console.WriteLine($"Is thread alive? : {thread.IsAlive}");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
         }
 
         public void PrintMessage()
