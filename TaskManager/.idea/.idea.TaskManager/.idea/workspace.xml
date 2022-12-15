@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ba286a9-b648-4553-bebe-da82b15b0c7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TaskManager/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TaskManager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaskManager/Processes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/Processes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskManager/TaskManager.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/TaskManager.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaskManager/bin/Debug/TaskManager.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/TaskManager.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaskManager/bin/Debug/TaskManager.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/bin/Debug/TaskManager.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaskManager/obj/Debug/TaskManager.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/obj/Debug/TaskManager.exe" afterDir="false" />
@@ -83,7 +81,7 @@
       <updated>1671050693854</updated>
       <workItem from="1671050770666" duration="3635000" />
       <workItem from="1671080143807" duration="297000" />
-      <workItem from="1671080582475" duration="7722000" />
+      <workItem from="1671080582475" duration="8941000" />
     </task>
     <servers />
   </component>

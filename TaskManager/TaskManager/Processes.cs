@@ -7,8 +7,6 @@ namespace TaskManager
 {
     public class Processes
     {
-        private static ThreadStart _threadStart;
-
         public static void SelectCommand()
         {
             Console.Write(
@@ -24,10 +22,12 @@ namespace TaskManager
                     StartAndKillATask();
                     break;
                 case 3:
-                    CreateACustomProcess(fileName: "random");
+                    CreateACustomProcess();
                     break;
                 case 4:
-                    CreateCustomThread(threadName: "task");
+                    CreateCustomThread();
+                    Thread thread = new Thread(new ThreadStart(CreateCustomThread));
+                    thread.Start();
                     break;
                 case 5:
                     ViewCurrentThreadList();
@@ -41,7 +41,6 @@ namespace TaskManager
             }
         }
 
-        // 1. List all running processes
         public static void ListAllRunningTasks()
         {
             try
@@ -65,7 +64,6 @@ namespace TaskManager
             }
         }
 
-        // 2. Start and kill all running browser task
         public static void StartAndKillATask()
         {
             Process process;
@@ -102,34 +100,31 @@ namespace TaskManager
             }
         }
 
-        // 3. Creates a custom process
-        public static void CreateACustomProcess(string fileName)
+        public static void CreateACustomProcess()
         {
             try
             {
-                Process newProcess = new Process();
-                newProcess.StartInfo.FileName = fileName;
-
-                Console.WriteLine($"\nSuccessfully created and added {fileName} process!");
+                Process process = new Process();
+                process.StartInfo.FileName = "notepad";
+                process.StartInfo.UseShellExecute = false;
+                process.StartInfo.CreateNoWindow = true;
+                process.Start();
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
                 throw;
             }
         }
 
-        // 4. Creates a custom thread
-        public static void CreateCustomThread(string threadName)
+        public static void CreateCustomThread()
         {
-            var thread = new Thread(_threadStart);
-            threadName = threadName;
-            thread.Start();
-            Console.WriteLine($"{threadName} has been created");
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine($"New thread created!");
+            }
         }
 
-        // *****************************
-        //method to view list of current threads
         public static void ViewCurrentThreadList()
         {
             ProcessThreadCollection currentThreads = Process.GetCurrentProcess().Threads;
