@@ -10,7 +10,8 @@ namespace TaskManager
         public static void SelectCommand()
         {
             Console.Write(
-                "\nPlease select a command to continue: \n1. List all running task\n2. Start a task\n3. Create a custom process\n4. Create a custom thread\n5. View current thread list\n6. Check thread current status\n*******************************************\n\n");
+                "\nPlease select a command to continue: \n1. List all running task\n2. Start a task\n3. Create a custom process\n4. Create a custom thread" +
+                "\n5. View current thread list\n6. Check thread current status\n*******************************************\n\n");
             var option = int.Parse(Console.ReadLine());
 
             switch (option)
