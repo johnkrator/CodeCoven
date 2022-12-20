@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82780a78-a54a-4278-9dee-b700ed6a9852" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ATMConsoleApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SystemExceptionHandling/.vs/SystemExceptionHandling/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../SystemExceptionHandling/.vs/SystemExceptionHandling/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SystemExceptionHandling/.vs/SystemExceptionHandling/FileContentIndex/342124dc-fbbc-4609-85ac-5a1d0b7ce7a3.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SystemExceptionHandling/.vs/SystemExceptionHandling/FileContentIndex/499cf3de-d949-48f8-95c6-f09fe2a7639e.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SystemExceptionHandling/.vs/SystemExceptionHandling/FileContentIndex/b5a4ce2b-e3a2-4f4d-872c-4de0a12968fd.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SystemExceptionHandling/.vs/SystemExceptionHandling/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../SystemExceptionHandling/.vs/SystemExceptionHandling/v17/.suo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +33,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Built-in: Reformat Code&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "rider.code.cleanup.on.save": "true",
+    "rider.code.cleanup.on.save.profile": "Built-in: Reformat Code",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\John\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\John\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\John\\AppData\\Local\\Symbols\\src"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ATMConsoleApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -84,6 +86,7 @@
       <workItem from="1670160184984" duration="628000" />
       <workItem from="1670254642953" duration="2208000" />
       <workItem from="1670327764552" duration="174000" />
+      <workItem from="1671547503859" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670074686118</created>
