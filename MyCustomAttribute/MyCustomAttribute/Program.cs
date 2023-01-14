@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using UI;
 
-Console.WriteLine("Hello, World!");
+AppScreenController.Run();

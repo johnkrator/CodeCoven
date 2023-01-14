@@ -1,0 +1,10 @@
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\bin\Debug\netstandard2.1\BLL.deps.json
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\bin\Debug\netstandard2.1\BLL.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\bin\Debug\netstandard2.1\BLL.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.csproj.AssemblyReference.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.AssemblyInfoInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.AssemblyInfo.cs
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.pdb

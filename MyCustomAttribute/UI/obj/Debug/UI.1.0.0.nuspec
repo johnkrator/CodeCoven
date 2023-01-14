@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UI</id>
+    <version>1.0.0</version>
+    <authors>UI</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\UI\bin\Debug\netstandard2.1\UI.dll" target="lib\netstandard2.1\UI.dll" />
+  </files>
+</package>

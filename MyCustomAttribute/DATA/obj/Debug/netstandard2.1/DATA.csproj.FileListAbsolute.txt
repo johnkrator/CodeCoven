@@ -1,0 +1,10 @@
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\bin\Debug\netstandard2.1\DATA.deps.json
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\bin\Debug\netstandard2.1\DATA.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\bin\Debug\netstandard2.1\DATA.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\obj\Debug\netstandard2.1\DATA.csproj.AssemblyReference.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\obj\Debug\netstandard2.1\DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\obj\Debug\netstandard2.1\DATA.AssemblyInfoInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\obj\Debug\netstandard2.1\DATA.AssemblyInfo.cs
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\obj\Debug\netstandard2.1\DATA.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\obj\Debug\netstandard2.1\DATA.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\DATA\obj\Debug\netstandard2.1\DATA.pdb
