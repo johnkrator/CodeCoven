@@ -1,3 +1,4 @@
-﻿using UI;
+using BLL.Implementation;
 
-AppScreenController.Run();
+MyAttributeValidation attributeValidation = new MyAttributeValidation(5, 20);
+attributeValidation.IsValid(false);

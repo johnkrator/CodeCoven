@@ -9,8 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Implementation"/>
-        <Folder Include="Interfaces"/>
+      <ProjectReference Include="..\DATA\DATA.csproj" />
     </ItemGroup>
 
 </Project>

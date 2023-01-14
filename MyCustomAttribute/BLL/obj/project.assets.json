@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "DATA/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DATA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DATA.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DATA/1.0.0": {
+      "type": "project",
+      "path": "../DATA/DATA.csproj",
+      "msbuildProject": "../DATA/DATA.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "DATA >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\John\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\John\\Documents\\TENESY INTERNSHIP\\BEZAO-VS\\MyCustomAttribute\\DATA\\DATA.csproj": {
+              "projectPath": "C:\\Users\\John\\Documents\\TENESY INTERNSHIP\\BEZAO-VS\\MyCustomAttribute\\DATA\\DATA.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

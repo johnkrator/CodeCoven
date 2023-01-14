@@ -8,3 +8,6 @@ C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Deb
 C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.csproj.CoreCompileInputs.cache
 C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.dll
 C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\bin\Debug\netstandard2.1\DATA.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\bin\Debug\netstandard2.1\DATA.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\MyCustomAttribute\BLL\obj\Debug\netstandard2.1\BLL.csproj.CopyComplete
