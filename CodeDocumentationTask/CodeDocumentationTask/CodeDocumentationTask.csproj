@@ -9,13 +9,13 @@
 
     <ItemGroup>
       <Reference Include="BLL">
-        <HintPath>..\BLL\bin\Debug\netstandard2.1\BLL.dll</HintPath>
+        <HintPath>..\BLL\bin\Debug\net6.0\BLL.dll</HintPath>
       </Reference>
       <Reference Include="DATA">
-        <HintPath>..\DATA\bin\Debug\netstandard2.1\DATA.dll</HintPath>
+        <HintPath>..\DATA\bin\Debug\net6.0\DATA.dll</HintPath>
       </Reference>
       <Reference Include="UI">
-        <HintPath>..\UI\bin\Debug\netstandard2.1\UI.dll</HintPath>
+        <HintPath>..\UI\bin\Debug\net6.0\UI.dll</HintPath>
       </Reference>
     </ItemGroup>
 

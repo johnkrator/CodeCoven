@@ -1,3 +1,3 @@
-﻿using UI;
+﻿using UI.Displays;
 
 AppScreen.Run();
