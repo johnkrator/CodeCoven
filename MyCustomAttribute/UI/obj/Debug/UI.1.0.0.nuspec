@@ -6,7 +6,9 @@
     <authors>UI</authors>
     <description>Package Description</description>
     <dependencies>
-      <group targetFramework=".NETStandard2.1" />
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="BLL" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
   <files>
