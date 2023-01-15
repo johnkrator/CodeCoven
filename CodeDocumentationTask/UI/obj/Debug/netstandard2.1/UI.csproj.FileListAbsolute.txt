@@ -1,0 +1,10 @@
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\bin\Debug\netstandard2.1\UI.deps.json
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\bin\Debug\netstandard2.1\UI.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\bin\Debug\netstandard2.1\UI.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\obj\Debug\netstandard2.1\UI.csproj.AssemblyReference.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\obj\Debug\netstandard2.1\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\obj\Debug\netstandard2.1\UI.AssemblyInfoInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\obj\Debug\netstandard2.1\UI.AssemblyInfo.cs
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\obj\Debug\netstandard2.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\obj\Debug\netstandard2.1\UI.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\CodeDocumentationTask\UI\obj\Debug\netstandard2.1\UI.pdb

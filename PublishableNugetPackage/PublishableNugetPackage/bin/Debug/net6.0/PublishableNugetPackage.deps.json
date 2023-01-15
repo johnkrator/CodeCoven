@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PublishableNugetPackage/1.0.0": {
+        "dependencies": {
+          "CalculationNuget": "1.0.0"
+        },
+        "runtime": {
+          "PublishableNugetPackage.dll": {}
+        }
+      },
+      "CalculationNuget/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/CalculationNuget.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PublishableNugetPackage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculationNuget/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9/GxEhggN7DgPnd6gBOcyKXIJoxIALvfR1g7XP2KgRGgyl5TeHY1JMRy9Hl/9PqW4m7Rtdp92tXPqUyTCprkAA==",
+      "path": "calculationnuget/1.0.0",
+      "hashPath": "calculationnuget.1.0.0.nupkg.sha512"
+    }
+  }
+}

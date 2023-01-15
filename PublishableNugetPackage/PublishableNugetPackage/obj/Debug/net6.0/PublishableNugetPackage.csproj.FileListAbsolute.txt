@@ -1,0 +1,17 @@
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\bin\Debug\net6.0\PublishableNugetPackage.exe
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\bin\Debug\net6.0\PublishableNugetPackage.deps.json
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\bin\Debug\net6.0\PublishableNugetPackage.runtimeconfig.json
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\bin\Debug\net6.0\PublishableNugetPackage.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\bin\Debug\net6.0\PublishableNugetPackage.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\bin\Debug\net6.0\CalculationNuget.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.csproj.AssemblyReference.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.AssemblyInfoInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.AssemblyInfo.cs
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.csproj.CopyComplete
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\refint\PublishableNugetPackage.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\PublishableNugetPackage.genruntimeconfig.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\PublishableNugetPackage\PublishableNugetPackage\obj\Debug\net6.0\ref\PublishableNugetPackage.dll
