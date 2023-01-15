@@ -3,12 +3,12 @@ using DATA.Models;
 
 namespace BLL.Implementation;
 
-public class MyAttributeValidation : CustomAttributeEntities
+public class AttributeValidation : CustomAttributeEntities
 {
-    public MyAttributeValidation(int minLength, int maxLength)
+    public AttributeValidation(int minLength, int maxLength)
     {
-        _minLength = minLength;
-        _maxLength = maxLength;
+        MinLength = minLength;
+        MaxLength = maxLength;
     }
 
     public bool IsValid(object value)
@@ -23,9 +23,9 @@ public class MyAttributeValidation : CustomAttributeEntities
         }
 
         // Check for minimum and maximum length
-        if (input.Length < _minLength || input.Length > _maxLength)
+        if (input.Length < MinLength || input.Length > MaxLength)
         {
-            Console.WriteLine($"Field must be between {_minLength} and {_maxLength} characters.");
+            Console.WriteLine($"Field must be between {MinLength} and {MaxLength} characters.");
             return false;
         }
 
@@ -42,7 +42,7 @@ public class MyAttributeValidation : CustomAttributeEntities
         }
 
         // Check for valid phone number
-        else if (input.Length == 10)
+        else if (input.Length == 11)
         {
             if (!long.TryParse(input, out long number))
             {

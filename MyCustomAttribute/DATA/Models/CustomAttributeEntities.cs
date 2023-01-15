@@ -2,6 +2,6 @@ namespace DATA.Models;
 
 public class CustomAttributeEntities
 {
-    public int _minLength { get; set; }
-    public int _maxLength { get; set; }
+    public int MinLength { get; set; }
+    public int MaxLength { get; set; }
 }
