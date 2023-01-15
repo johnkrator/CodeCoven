@@ -1,5 +1,9 @@
 ﻿namespace UI;
 
-public class Class1
+public class AppScreen
 {
+    public static void Run()
+    {
+        Console.WriteLine("Hello from AppScreen");
+    }
 }

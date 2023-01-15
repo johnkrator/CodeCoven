@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="BLL">
+        <HintPath>..\BLL\bin\Debug\netstandard2.1\BLL.dll</HintPath>
+      </Reference>
+      <Reference Include="DATA">
+        <HintPath>..\DATA\bin\Debug\netstandard2.1\DATA.dll</HintPath>
+      </Reference>
+      <Reference Include="UI">
+        <HintPath>..\UI\bin\Debug\netstandard2.1\UI.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
