@@ -1,6 +1,6 @@
 namespace BLL.Interfaces;
 
-public interface IDisplayDocs
+public interface IGetDocument
 {
     void GetDocs();
 }

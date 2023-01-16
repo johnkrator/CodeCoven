@@ -1,12 +1,13 @@
 ﻿using BLL.Implementation;
+using DATA.Models;
 
 namespace UI.Displays;
 
-public class AppScreen
+public class AppScreen : DocumentEntity
 {
     public static void Run()
     {
-        GetDocument getDocument = new GetDocument();
-        getDocument.GetDocs();
+        GetDocumentService getDocumentService = new GetDocumentService("");
+        getDocumentService.GetDocs();
     }
 }
