@@ -4,43 +4,32 @@ using DATA.Models;
 
 namespace BLL.Implementation;
 
-[AttributeUsage(AttributeTargets.All)]
 public class GetDocumentService : DocumentEntity, IGetDocument
 {
-    public GetDocumentService(string description)
+    public GetDocumentService(string description, string input, string output)
     {
         Description = description;
+        Input = input;
+        Output = output;
     }
 
     public void GetDocs()
     {
-        Assembly assembly = Assembly.GetExecutingAssembly();
-        foreach (Type type in assembly.GetTypes())
-        {
-            var attributes = type.GetCustomAttributes(typeof(GetDocumentService), true);
-            if (attributes.Length > 0)
-            {
-                Console.WriteLine($"Type: {type.Name}");
-                foreach (GetDocumentService attribute in attributes)
-                {
-                    Console.WriteLine($"Description: {attribute.Description}");
-                    Console.WriteLine($"Input: {attribute.Input}");
-                    Console.WriteLine($"Output: {attribute.Output}");
-                }
-            }
+        var assembly = Assembly.GetExecutingAssembly();
+        var types = assembly.GetTypes();
 
-            foreach (MethodInfo method in type.GetMethods())
+        foreach (var type in types)
+        {
+            var members = type.GetMembers();
+            foreach (var member in members)
             {
-                var methodAttributes = method.GetCustomAttributes(typeof(GetDocumentService), true);
-                if (methodAttributes.Length > 0)
+                var attribute = member.GetCustomAttribute(typeof(GetDocumentService)) as GetDocumentService;
+                if (attribute != null)
                 {
-                    Console.WriteLine($"Method: {method.Name}");
-                    foreach (GetDocumentService attribute in methodAttributes)
-                    {
-                        Console.WriteLine($"Description: {attribute.Description}");
-                        Console.WriteLine($"Input: {attribute.Input}");
-                        Console.WriteLine($"Output: {attribute.Output}");
-                    }
+                    Console.WriteLine("Member: " + member.Name);
+                    Console.WriteLine("Description: " + attribute.Description);
+                    Console.WriteLine("Input: " + attribute.Input);
+                    Console.WriteLine("Output: " + attribute.Output);
                 }
             }
         }
