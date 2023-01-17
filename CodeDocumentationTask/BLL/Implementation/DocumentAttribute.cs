@@ -4,30 +4,69 @@ using DATA.Models;
 
 namespace BLL.Implementation;
 
+[Document("A software Engineering Training")]
 public class DocumentAttribute : DocumentEntity, IDocumentAttribute
 {
+    [Document("The Initializes the Our Class")]
     public DocumentAttribute(string description)
     {
         Description = description;
     }
 
-    public void GetDocs()
+    [Document("Get Our Documents When Called")]
+    public void GetDocs(Type type)
     {
-        var assembly = Assembly.GetExecutingAssembly();
-        var types = assembly.GetTypes();
+        GetClass(type);
+        GetMethods(type);
+        GetProperties(type);
+    }
 
-        foreach (var type in types)
+    [Document("Gets the Method")]
+    public void GetMethods(Type type)
+    {
+        MethodInfo[] methodInfo = type.GetMethods();
+        for (int i = 0; i < methodInfo.Length; i++)
         {
-            var members = type.GetMembers();
-            foreach (var member in members)
+            object[] methods = methodInfo[i].GetCustomAttributes(true);
+            foreach (Attribute myMethod in methods.Cast<Attribute>())
             {
-                var attribute = member.GetCustomAttribute(typeof(DocumentAttribute)) as DocumentAttribute;
-                if (attribute != null)
+                if (myMethod is DocumentAttribute)
                 {
-                    Console.WriteLine($"Member: {member.Name}");
-                    Console.WriteLine($"Description: {attribute.Description}");
-                    Console.WriteLine($"Input: {attribute.Input}");
-                    Console.WriteLine($"Output: {attribute.Output}");
+                    DocumentAttribute documentAttribute = (DocumentAttribute)myMethod;
+                    Console.WriteLine(documentAttribute.Description);
+                }
+            }
+        }
+    }
+
+    [Document("The the Class")]
+    public void GetClass(Type type)
+    {
+        Console.WriteLine($"Assembly: {Assembly.GetExecutingAssembly()}");
+        object[] classInfo = type.GetCustomAttributes(true);
+        foreach (object attribute in classInfo)
+        {
+            if (attribute is DocumentAttribute)
+            {
+                DocumentAttribute documentAttribute = (DocumentAttribute)attribute;
+                Console.WriteLine(documentAttribute.Description);
+            }
+        }
+    }
+
+    [Document("Gets the properties")]
+    public void GetProperties(Type type)
+    {
+        PropertyInfo[] propertyInfos = type.GetProperties();
+        for (int i = 0; i < propertyInfos.Length; i++)
+        {
+            object[] prop = propertyInfos[i].GetCustomAttributes(true);
+            foreach (Attribute myprop in prop.Cast<Attribute>())
+            {
+                if (myprop is DocumentAttribute)
+                {
+                    DocumentAttribute documentAttribute = (DocumentAttribute)myprop;
+                    Console.WriteLine(documentAttribute.Description);
                 }
             }
         }

@@ -8,6 +8,6 @@ public class AppScreen
     public static void Run()
     {
         DocumentAttribute documentAttributeService = new DocumentAttribute("description");
-        documentAttributeService.GetDocs();
+        documentAttributeService.GetDocs(typeof(Type));
     }
 }
