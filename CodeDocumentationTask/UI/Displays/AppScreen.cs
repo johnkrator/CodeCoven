@@ -2,11 +2,12 @@
 
 namespace UI.Displays;
 
+[DocumentAttribute("A software Engineering Trainer")]
 public class AppScreen
 {
     public static void Run()
     {
-        GetDocumentService getDocumentService = new GetDocumentService("description", "input", "output");
-        getDocumentService.GetDocs();
+        DocumentAttributeAttribute documentAttributeAttributeService = new DocumentAttributeAttribute("description");
+        documentAttributeAttributeService.GetDocs();
     }
 }
