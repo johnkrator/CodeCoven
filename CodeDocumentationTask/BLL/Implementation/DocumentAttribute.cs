@@ -4,9 +4,9 @@ using DATA.Models;
 
 namespace BLL.Implementation;
 
-public class DocumentAttributeAttribute : DocumentEntity, IDocumentAttribute
+public class DocumentAttribute : DocumentEntity, IDocumentAttribute
 {
-    public DocumentAttributeAttribute(string description)
+    public DocumentAttribute(string description)
     {
         Description = description;
     }
@@ -21,7 +21,7 @@ public class DocumentAttributeAttribute : DocumentEntity, IDocumentAttribute
             var members = type.GetMembers();
             foreach (var member in members)
             {
-                var attribute = member.GetCustomAttribute(typeof(DocumentAttributeAttribute)) as DocumentAttributeAttribute;
+                var attribute = member.GetCustomAttribute(typeof(DocumentAttribute)) as DocumentAttribute;
                 if (attribute != null)
                 {
                     Console.WriteLine($"Member: {member.Name}");
