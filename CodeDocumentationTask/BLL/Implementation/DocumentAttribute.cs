@@ -4,16 +4,16 @@ using DATA.Models;
 
 namespace BLL.Implementation;
 
-[Document("A software Engineering Training")]
+[AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = true)]
 public class DocumentAttribute : DocumentEntity, IDocumentAttribute
 {
-    [Document("The Initializes the Our Class")]
-    public DocumentAttribute(string description)
+    public DocumentAttribute(string description, string input = "", string output = "")
     {
         Description = description;
+        Input = input;
+        Output = output;
     }
 
-    [Document("Get Our Documents When Called")]
     public void GetDocs(Type type)
     {
         GetClass(type);
@@ -21,52 +21,63 @@ public class DocumentAttribute : DocumentEntity, IDocumentAttribute
         GetProperties(type);
     }
 
-    [Document("Gets the Method")]
     public void GetMethods(Type type)
     {
-        MethodInfo[] methodInfo = type.GetMethods();
-        for (int i = 0; i < methodInfo.Length; i++)
+        Console.WriteLine("\nMethods:\n");
+        MethodInfo[] methods = type.GetMethods();
+
+
+        for (int i = 0; i < methods.GetLength(0); i++)
         {
-            object[] methods = methodInfo[i].GetCustomAttributes(true);
-            foreach (Attribute myMethod in methods.Cast<Attribute>())
+            object[] methAttr = methods[i].GetCustomAttributes(true);
+
+            foreach (Attribute item in methAttr)
             {
-                if (myMethod is DocumentAttribute)
+                if (item is DocumentAttribute)
                 {
-                    DocumentAttribute documentAttribute = (DocumentAttribute)myMethod;
-                    Console.WriteLine(documentAttribute.Description);
+                    DocumentAttribute doc = (DocumentAttribute)item;
+                    Console.WriteLine("{0}\nDescription:\n\t{1}\nInput:\n\t{2}", methods[i].Name, doc.Description,
+                        doc.Input);
                 }
             }
         }
     }
 
-    [Document("The the Class")]
     public void GetClass(Type type)
     {
-        Console.WriteLine($"Assembly: {Assembly.GetExecutingAssembly()}");
-        object[] classInfo = type.GetCustomAttributes(true);
-        foreach (object attribute in classInfo)
+        Console.WriteLine("Assembly: {0}", Assembly.GetExecutingAssembly());
+        Console.WriteLine("\nClass: \n\n{0}", type.Name);
+
+        object[] classAttr = type.GetCustomAttributes(true);
+
+        foreach (Attribute item in classAttr)
         {
-            if (attribute is DocumentAttribute)
+            if (item is DocumentAttribute)
             {
-                DocumentAttribute documentAttribute = (DocumentAttribute)attribute;
-                Console.WriteLine(documentAttribute.Description);
+                DocumentAttribute doc = (DocumentAttribute)item;
+                Console.WriteLine("\nDescription:\n\t{0}", doc.Description);
             }
         }
     }
 
-    [Document("Gets the properties")]
     public void GetProperties(Type type)
     {
-        PropertyInfo[] propertyInfos = type.GetProperties();
-        for (int i = 0; i < propertyInfos.Length; i++)
+        Console.WriteLine("\n\nProperties: ");
+        Console.WriteLine();
+
+        PropertyInfo[] properties = type.GetProperties();
+
+        for (int i = 0; i < properties.GetLength(0); i++)
         {
-            object[] prop = propertyInfos[i].GetCustomAttributes(true);
-            foreach (Attribute myprop in prop.Cast<Attribute>())
+            object[] propAttr = properties[i].GetCustomAttributes(true);
+
+            foreach (Attribute item in propAttr)
             {
-                if (myprop is DocumentAttribute)
+                if (item is DocumentAttribute)
                 {
-                    DocumentAttribute documentAttribute = (DocumentAttribute)myprop;
-                    Console.WriteLine(documentAttribute.Description);
+                    DocumentAttribute doc = (DocumentAttribute)item;
+                    Console.WriteLine("{0}\nDescription:\n\t{1}\nInput:\n\t{2}\n", properties[i].Name, doc.Description,
+                        doc.Input);
                 }
             }
         }
