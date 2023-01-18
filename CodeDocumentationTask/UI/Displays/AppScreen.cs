@@ -9,7 +9,7 @@ public class AppScreen
     public static void Run()
     {
         DocumentAttribute documentAttributeService = new DocumentAttribute("description");
-        documentAttributeService.GetDocs(typeof(Schools));
+        documentAttributeService.GetDocs(typeof(AttributeTarget));
 
         MyClass myClass = new MyClass();
         myClass.MySampleMethod("James");

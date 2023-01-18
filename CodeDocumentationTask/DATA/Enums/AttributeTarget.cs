@@ -1,6 +1,6 @@
 namespace DATA.Enums;
 
-public enum Schools
+public enum AttributeTarget
 {
     HighSchool,
     College,
