@@ -21,6 +21,23 @@ public class DocumentAttribute : DocumentEntity, IDocumentAttribute
         GetProperties(type);
     }
 
+    public void GetClass(Type type)
+    {
+        Console.WriteLine($"Assembly: {Assembly.GetExecutingAssembly()}");
+        Console.WriteLine($"\nClass: \n\n{type.Name}");
+
+        object[] classAttr = type.GetCustomAttributes(true);
+
+        foreach (Attribute item in classAttr)
+        {
+            if (item is DocumentAttribute)
+            {
+                DocumentAttribute doc = (DocumentAttribute)item;
+                Console.WriteLine($"\nDescription:\n\t{doc.Description}\n");
+            }
+        }
+    }
+
     public void GetMethods(Type type)
     {
         Console.WriteLine("\nMethods:\n");
@@ -36,26 +53,8 @@ public class DocumentAttribute : DocumentEntity, IDocumentAttribute
                 if (item is DocumentAttribute)
                 {
                     DocumentAttribute doc = (DocumentAttribute)item;
-                    Console.WriteLine("{0}\nDescription:\n\t{1}\nInput:\n\t{2}", methods[i].Name, doc.Description,
-                        doc.Input);
+                    Console.WriteLine($"{methods[i].Name}\nDescription:\n\t{doc.Description}\nInput:\n\t{doc.Input}\n");
                 }
-            }
-        }
-    }
-
-    public void GetClass(Type type)
-    {
-        Console.WriteLine("Assembly: {0}", Assembly.GetExecutingAssembly());
-        Console.WriteLine("\nClass: \n\n{0}", type.Name);
-
-        object[] classAttr = type.GetCustomAttributes(true);
-
-        foreach (Attribute item in classAttr)
-        {
-            if (item is DocumentAttribute)
-            {
-                DocumentAttribute doc = (DocumentAttribute)item;
-                Console.WriteLine("\nDescription:\n\t{0}", doc.Description);
             }
         }
     }
@@ -76,8 +75,8 @@ public class DocumentAttribute : DocumentEntity, IDocumentAttribute
                 if (item is DocumentAttribute)
                 {
                     DocumentAttribute doc = (DocumentAttribute)item;
-                    Console.WriteLine("{0}\nDescription:\n\t{1}\nInput:\n\t{2}\n", properties[i].Name, doc.Description,
-                        doc.Input);
+                    Console.WriteLine(
+                        $"{properties[i].Name}\nDescription:\n\t{doc.Description}\nInput:\n\t{doc.Input}\n");
                 }
             }
         }
