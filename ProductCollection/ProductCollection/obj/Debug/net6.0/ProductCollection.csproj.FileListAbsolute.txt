@@ -13,3 +13,6 @@ C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductColl
 C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.pdb
 C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.genruntimeconfig.cache
 C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ref\ProductCollection.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\bin\Debug\net6.0\UI.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\bin\Debug\net6.0\UI.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.csproj.CopyComplete
