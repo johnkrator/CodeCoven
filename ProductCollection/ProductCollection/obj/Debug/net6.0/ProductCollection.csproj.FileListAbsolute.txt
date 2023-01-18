@@ -1,0 +1,15 @@
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\bin\Debug\net6.0\ProductCollection.exe
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\bin\Debug\net6.0\ProductCollection.deps.json
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\bin\Debug\net6.0\ProductCollection.runtimeconfig.json
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\bin\Debug\net6.0\ProductCollection.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\bin\Debug\net6.0\ProductCollection.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.csproj.AssemblyReference.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.AssemblyInfoInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.AssemblyInfo.cs
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\refint\ProductCollection.dll
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.pdb
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ProductCollection.genruntimeconfig.cache
+C:\Users\John\Documents\TENESY INTERNSHIP\BEZAO-VS\ProductCollection\ProductCollection\obj\Debug\net6.0\ref\ProductCollection.dll

@@ -5,7 +5,7 @@ using DATA.Models;
 namespace BLL.Implementation;
 
 [AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = true)]
-public class DocumentAttribute : DocumentEntity, IDocumentAttribute
+public class DocumentAttribute : DATA.Models.DocumentAttribute, IDocumentAttribute
 {
     public DocumentAttribute(string description, string input = "", string output = "")
     {

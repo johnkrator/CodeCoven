@@ -1,6 +1,6 @@
 namespace DATA.Models;
 
-public class DocumentEntity : Attribute
+public class DocumentAttribute : Attribute
 {
     public string Description { get; set; }
     public string Input { get; set; }
