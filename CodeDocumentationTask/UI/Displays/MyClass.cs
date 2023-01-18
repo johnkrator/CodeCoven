@@ -1,6 +1,5 @@
 using BLL.Implementation;
 
-
 namespace UI.Displays;
 
 public class MyClass
