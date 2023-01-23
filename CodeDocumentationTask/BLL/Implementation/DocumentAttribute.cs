@@ -1,82 +1,40 @@
 using System.Reflection;
 using BLL.Interfaces;
-using DATA.Models;
 
 namespace BLL.Implementation;
 
-[AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = true)]
-public class DocumentAttribute : DATA.Models.DocumentAttribute, IDocumentAttribute
+[Document(Description = "Class", Input = "Takes in methods", Output = "Method objects\n")]
+public class DocumentAttribute : DATA.Models.Entities.DocumentAttribute, IDocumentAttribute
 {
-    public DocumentAttribute(string description, string input = "", string output = "")
+    [Document(Description = "Method", Input = "HandleGetDocs()", Output = "HandleGetDocs()\n")]
+    public void GetDocs()
     {
-        Description = description;
-        Input = input;
-        Output = output;
+        HandleGetDocs();
     }
 
-    public void GetDocs(Type type)
+    [Document(Description = "Method", Input = "A method to handle receiving documents", Output = "none\n")]
+    public void HandleGetDocs()
     {
-        GetClass(type);
-        GetMethods(type);
-        GetProperties(type);
-    }
-
-    public void GetClass(Type type)
-    {
-        Console.WriteLine($"Assembly: {Assembly.GetExecutingAssembly()}");
-        Console.WriteLine($"\nClass: \n\n{type.Name}");
-
-        object[] classAttr = type.GetCustomAttributes(true);
-
-        foreach (Attribute item in classAttr)
+        var types = Assembly.GetExecutingAssembly().GetTypes();
+        foreach (var type in types)
         {
-            if (item is DocumentAttribute)
+            var attributes = type.GetCustomAttributes(typeof(DocumentAttribute), true);
+            foreach (DocumentAttribute attribute in attributes)
             {
-                DocumentAttribute doc = (DocumentAttribute)item;
-                Console.WriteLine($"\nDescription:\n\t{doc.Description}\n");
+                Console.WriteLine($"{type.Name}: {attribute.Description}");
+                Console.WriteLine($"Input: {attribute.Input}");
+                Console.WriteLine($"Output: {attribute.Output}");
             }
-        }
-    }
 
-    public void GetMethods(Type type)
-    {
-        Console.WriteLine("\nMethods:\n");
-        MethodInfo[] methods = type.GetMethods();
-
-
-        for (int i = 0; i < methods.GetLength(0); i++)
-        {
-            object[] methAttr = methods[i].GetCustomAttributes(true);
-
-            foreach (Attribute item in methAttr)
+            var members = type.GetMembers();
+            foreach (var member in members)
             {
-                if (item is DocumentAttribute)
+                var memberAttributes = member.GetCustomAttributes(typeof(DocumentAttribute), true);
+                foreach (DocumentAttribute attribute in memberAttributes)
                 {
-                    DocumentAttribute doc = (DocumentAttribute)item;
-                    Console.WriteLine($"{methods[i].Name}\nDescription:\n\t{doc.Description}\nInput:\n\t{doc.Input}\n");
-                }
-            }
-        }
-    }
-
-    public void GetProperties(Type type)
-    {
-        Console.WriteLine("\n\nProperties: ");
-        Console.WriteLine();
-
-        PropertyInfo[] properties = type.GetProperties();
-
-        for (int i = 0; i < properties.GetLength(0); i++)
-        {
-            object[] propAttr = properties[i].GetCustomAttributes(true);
-
-            foreach (Attribute item in propAttr)
-            {
-                if (item is DocumentAttribute)
-                {
-                    DocumentAttribute doc = (DocumentAttribute)item;
-                    Console.WriteLine(
-                        $"{properties[i].Name}\nDescription:\n\t{doc.Description}\nInput:\n\t{doc.Input}\n");
+                    Console.WriteLine($"{member.Name}: {attribute.Description}");
+                    Console.WriteLine($"Input: {attribute.Input}");
+                    Console.WriteLine($"Output: {attribute.Output}");
                 }
             }
         }

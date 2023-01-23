@@ -6,7 +6,7 @@ public class AppScreen
 {
     public static void Run()
     {
-        DocumentAttribute documentAttributeService = new DocumentAttribute("");
-        documentAttributeService.GetDocs(typeof(MyClass));
+        DocumentAttribute documentAttributeService = new DocumentAttribute();
+        documentAttributeService.GetDocs();
     }
 }

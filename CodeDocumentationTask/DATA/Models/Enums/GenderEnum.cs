@@ -1,3 +1,5 @@
+using DATA.Models.Entities;
+
 namespace DATA.Models.Enums;
 
 [Document(Description = "Showcases the person's defined gender")]

@@ -1,8 +1,8 @@
 using DATA.Models.Enums;
 
-namespace DATA.Models;
+namespace DATA.Models.Entities;
 
-public class AgeEntity
+public class AgeModel
 {
     [Document(Description = "Describes a persons age", Input = "Takes in an integer")]
     public int Age { get; set; }

@@ -1,9 +1,8 @@
-using DATA.Models;
 using DATA.Models.Enums;
 
 namespace UI.Displays;
 
-public class MyClass : AgeEntity
+public class MyClass
 {
     public MyClass(int age, GenderEnum gender)
     {
@@ -11,21 +10,15 @@ public class MyClass : AgeEntity
         Gender = gender;
     }
 
-    [BLL.Implementation.Document("Describes a persons age", "Takes in an integer")]
+    [BLL.Implementation.Document(Description = "Describes a persons age", Input = "Takes in an integer")]
     public int Age { get; set; }
 
-    [BLL.Implementation.Document("Physical attributes that define the person's sex", "Takes in an enum")]
+    [BLL.Implementation.Document(Description = "Physical attributes that define the person's sex",
+        Input = "Takes in an enum")]
     public GenderEnum Gender { get; set; }
 
-    [BLL.Implementation.Document("Showcases the person's defined gender")]
-    public enum GenderEnum
-    {
-        Male,
-        Female,
-        SheMale
-    }
-
-    [BLL.Implementation.Document("Displays mentions", "Age and gender", "Returns mentions as a string argument")]
+    [BLL.Implementation.Document(Description = "Displays mentions", Input = "Age and gender",
+        Output = "Returns mentions as a string argument")]
     public void MakeSentenceWithPerson(int age, GenderEnum gender)
     {
         this.Gender = gender;
